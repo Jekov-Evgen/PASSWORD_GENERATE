@@ -1,0 +1,7 @@
+STYLE_OUTPUT = "font-size: 15px;\n font-weight: bold;\n color: #2c3e50;\n padding: 10px;\n"
+CONST_HEDING = "font-size: 15px;\n font-weight: bold;\n color: #2c3e50;\n padding: 10px;"
+CONST_CULE = "font-size: 15px;\n font-weight: bold;\n color: #2c3e50;"
+CONST_GENERATE_BUTTON = "background-color: #3498db;\n color: white;\n border-radius: 10px;\n font-size: 14px; \npadding: 5px;"
+CONST_PLATFORM_NAME = "color: white;\n border-radius: 10px;\n font-size: 20px;\n font-weight: bold;\n padding: 5px;\n background: black;"
+CONST_RESULT_WINDOW = "font-size: 15px;\n font-weight: bold;\n color: #2c3e50;\n padding: 10px;"
+CONST_MAIN_WINDOW = "background-color: #ecf0f1;"
