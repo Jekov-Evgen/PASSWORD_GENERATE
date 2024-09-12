@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
         self.generate_password_button = QPushButton("Генерация пароля", self)
         
         self.setFixedSize(QSize(300, 250))
-        self.setWindowIcon(QIcon("icon.png"))
+        self.setWindowIcon(QIcon("photo/icon.png"))
         
         self.heading.setStyleSheet(CONST_HEDING)
         self.heading.setFixedWidth(300)

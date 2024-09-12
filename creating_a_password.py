@@ -14,7 +14,7 @@ class ResultWindow:
     def result_window(self):
         msg = QMessageBox()
         
-        msg.setWindowIcon(QIcon("icon.png"))
+        msg.setWindowIcon(QIcon("photo/icon.png"))
         msg.setWindowTitle("Результат работы")
         msg.setText("Просмотрите папку приложения, там пароль")
         msg.setStyleSheet(CONST_RESULT_WINDOW)
@@ -43,7 +43,7 @@ class CreatePasswordWindow:
         created_password = self.get_password()
         msg = QMessageBox()
         
-        msg.setWindowIcon(QIcon("icon.png"))
+        msg.setWindowIcon(QIcon("photo/icon.png"))
         msg.setWindowTitle("Сгенерированный пароль")
         msg.setText(f"{created_password}")
         msg.setStyleSheet(STYLE_OUTPUT)
